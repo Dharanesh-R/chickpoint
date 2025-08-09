@@ -79,9 +79,9 @@
       localStorage.setItem("currentUser", username);
 
       if (email === "admin@chick.com" && password === "123") {
-        window.location.href = "admin.html";
+        window.location.href = "/admin.html";
       } else if (email.endsWith("@user.com") && password === "123") {
-        window.location.href = "user.html";
+        window.location.href = "/user.html";
       } else {
         errorMsg.style.display = "block";
       }
